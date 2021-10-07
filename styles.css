@@ -1,0 +1,358 @@
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+}
+html {
+    height:100%
+}
+body {
+    height:100%;
+    padding:0;
+    margin:0;
+    font-family:merriweather;
+}   
+a {
+    text-decoration: none;
+}
+.navbar {
+    background:#fbf5ee;
+    width:100%;
+    position:fixed;
+    top:0;
+    display:flex;
+    justify-content:space-around;
+    z-index:2;
+}
+.navbar ul li {
+    float:left;
+    display:block;
+    padding:50px 20px;
+    font-family:fira sans;
+    font-weight:300;
+    color:rgb(17, 17, 17);
+    
+}
+.navbar h1 {
+    padding:40px 0px;
+    font-family:fira sans;
+    color:#2b3349
+}
+.header {
+    background:url("images/caiet.jpg") center center no-repeat;
+    background-size:cover;
+    width:70%;
+    height:100%;
+    margin:auto;
+    
+}
+.header img {
+    position:absolute;
+    bottom:-70px;
+    width:30%;
+    z-index:0
+
+}
+.femaleboss h1 {
+    text-align:center;
+    font-family:fira sans;
+    font-weight:300;
+    color:#2b3349;
+    font-size:25px
+}
+.femaleboss {
+    margin:70px auto;
+    width:70%;
+    
+}
+.container {
+    display:flex;
+    justify-content:space-around;
+    margin:50px 0px;
+}
+.dreptunghi {
+    background:#2b3349;
+    padding:70px 50px;
+    transition:all .3s;
+    
+}
+.dreptunghi h3 {
+    font-family:Parisienne;
+    font-size:30px;
+    color:#d7b58c;
+}
+.dreptunghi h1 {
+    font-weight:300;
+    color:white;
+}
+.dreptunghi:hover {
+    opacity:.7;
+    
+}
+.bio {
+    display:flex;
+    width:70%;
+    margin:80px auto;
+    justify-content:space-around;
+    position:relative
+}
+.bio img {
+    width:40%;
+    z-index:-1;
+}
+.biotext {
+    width:50%;
+    z-index:-1;
+}
+.biotext h1{
+    font-family:Parisienne;
+    font-size:50px;
+    color:#2b3349;
+
+}
+.biotext h2 {
+    font-family:fira sans;
+    font-size:20px;
+    font-weight:300;
+    color:#aaa199;
+    padding-top:20px;
+}
+.biotext p{
+    padding-top:30px;
+    color:#2b3349;
+    line-height:28px;
+    font-weight:300;
+    font-size:15px;
+}
+.spate {
+    width:30%;
+    background:#e6d7d7;
+    height:100%;
+    position:absolute;
+    bottom:-30px;
+    left:-30px;
+    z-index:-1;
+}
+.ebook {
+    background:#aca0a0;
+    width:100%;
+    height:70%;
+    
+}
+.img {
+    width:30%;
+    position:relative;
+    left:150px;
+    top:50px;
+    
+}
+.ebooktext {
+    
+    width:50%;
+   
+}
+.book {
+    width:20%;
+    position:relative;
+    bottom:50px;
+    left:100px;
+    border:10px solid white;
+    border-radius:10px
+
+}
+.ebookcontainer {
+    display:flex;
+    width:70%;
+    margin: auto;
+    justify-content:space-around;
+    
+}
+.ebooktext h2 {
+    font-family:fira sans;
+    font-weight:300;
+    color:rgb(71, 71, 71);
+    padding-bottom:30px;
+}
+.ebooktext p {
+    line-height:28px;
+    font-size:15px;
+    color:rgb(71, 71, 71);
+    padding-bottom:40px;
+}
+#name, #email {
+    height:40px;
+    font-family:fira sans;
+    font-weight: 300;
+    padding-left:20px
+    
+
+}
+input[type="button"]{
+    background:#2b3349;
+    padding:12px 23px;
+    color:white;
+    border:none;
+    font-family:fira sans;
+    font-weight: 300;
+
+}
+.reviews {
+    display:flex;
+    margin:100px auto;
+    justify-content:space-around;
+    width:70%
+}
+.image img {
+    width:80%;
+    
+}
+.image {
+    border-right:1px solid rgb(189, 189, 189);
+    text-align:center;
+    position:relative;
+}
+.review {
+    padding-left:30px;
+    position:relative;
+}
+.fas {
+    font-size:35px;
+    color:rgb(104, 104, 104);
+    padding:100px 0px;
+}
+.fa-angle-left {
+    margin-left:30px;
+}
+.review h1 {
+    font-family:parisienne;
+    color:#2b3349;
+    font-size:35px;
+    padding-bottom:30px;
+}
+.review p {
+    font-size:15px;
+    color:#2b3349;
+    padding-bottom:30px;
+    line-height:27px;
+}
+.review h3 {
+    font-family:fira sans;
+    font-size:20px;
+    font-weight:300;
+    color:#565b6b;
+
+}
+.spate-rotund{
+    background:#e4d4c4;
+    width:80%;
+    height:80%;
+    border-radius:50%;
+    position:absolute;
+    bottom:20%;
+    left:14%;
+    z-index:-1;
+}
+.social-media {
+    display:flex;
+    justify-content:center;
+    
+    color:#2b3349;
+    background:#e4d4c4;
+}
+.fab {
+    padding-left:30px;
+    margin:30px 0px;
+    font-size:25px;
+}
+.about-course {
+    display:flex;
+    flex-direction:column;
+    float:left;
+    padding-right:30px;
+    
+}
+.blog-contact {
+    display:flex;
+    flex-direction:column;
+
+    
+}
+.links {
+    width:18%;
+    height:28%;
+    
+}
+.footer {
+    background:#d7b58c;
+}
+.actualfooter {
+    width:90%;
+    display:flex;
+    justify-content:space-around;
+    padding:50px 0px;
+    margin:auto;
+    
+}
+.about-course a {
+    padding:10px 20px;
+    background:#f5e8dc;
+    margin-bottom:10px;
+    font-family:fira sans;
+    font-weight:300;
+}
+.blog-contact a {
+    padding:10px 20px;
+    background:#f5e8dc;
+    margin-bottom:10px;
+    text-align:center;
+    font-family:fira sans;
+    font-weight:300;
+    
+}
+.link {
+    width:18%;
+    background:#f5e8dc;
+    margin-top:10px;
+    font-family:fira sans;
+    font-weight:300;
+    height:18%;
+}
+.coaching {
+    text-align:center;
+}
+.coaching h1 {
+    font-family:fira sans;
+    color:#2b3349;
+    padding-bottom:10px;
+}
+.coaching h2 {
+    font-family:parisienne;
+    font-size:30px;
+    color:#2b3349;
+    padding-bottom:30px;
+}
+.copy {
+    font-family:fira-sans;
+    font-weight:300;
+    font-size:14px;
+    color:#6d7897;
+    padding-bottom:10px;
+}
+.template {
+    font-size:14px;
+}
+.book-a-call img{
+    width:80%;
+    padding-bottom:20px;
+}
+.book-a-call {
+    
+    width:20%;
+    
+    
+}
+.book-a-call a {
+    color:white;
+    padding:10px 20px;
+    background:#2b3349;
+}
